@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+I'm a passionate Data Scientist and Machine Learning enthusiast. Proficient in a variety of programming languages, data analysis tools, and cloud platforms. Experienced in implementing unsupervised and unsupervised learning, deep learning and recommendation engines. Currently pursuing a Master's in data science at UAB.
 <!--
 **imsalik/imsalik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
