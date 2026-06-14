@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Salik Salam — Data Scientist</title>
+  <meta name="description" content="M Salik Salam — Data Scientist building production LLM agent systems grounded in structured data. Projects, research, and contact." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="M Salik Salam — Data Scientist" />
+  <meta property="og:description" content="Building production LLM agent systems grounded in large structured datasets. Research in graph ML and deep learning." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g fill='none' stroke='%23ffae42' stroke-width='1.8'><line x1='5' y1='6' x2='18' y2='17'/><line x1='5' y1='6' x2='6' y2='19'/></g><g fill='%23ffae42'><circle cx='5' cy='6' r='2.6'/><circle cx='18' cy='17' r='2.6'/><circle cx='6' cy='19' r='2.6'/></g></svg>" />
+</head>
+<body>
+  <!-- grain + vignette atmosphere -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- ───────────────────────── NAV ───────────────────────── -->
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Home">
+      <svg class="brand-mark" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <line x1="5" y1="6" x2="18" y2="17" stroke="currentColor" stroke-width="1.6"/>
+        <line x1="5" y1="6" x2="6" y2="19" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="5" cy="6" r="2.4" fill="currentColor"/>
+        <circle cx="18" cy="17" r="2.4" fill="currentColor"/>
+        <circle cx="6" cy="19" r="2.4" fill="currentColor"/>
+      </svg>
+      <span class="brand-name">salik</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ───────────────────────── HERO ───────────────────────── -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="glitch" data-text="M SALIK SALAM">M SALIK SALAM</h1>
+        <p class="hero-sub">DATA SCIENTIST &middot; AI ENGINEER</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── ABOUT ───────────────────────── -->
+    <section class="about" id="about">
+      <p class="label">ABOUT</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a data scientist and AI engineer. I build production
+            <em>LLM agent systems</em> and bring AI into real products —
+            grounding language models in a large structured
+            <em>knowledge graph</em> so the answers they produce are accurate
+            and verifiable. Day to day that's agent design, backend services in
+            <em>FastAPI</em>, and natural-language-to-data tooling that lets
+            people query complex data in plain language.
+          </p>
+          <p>
+            Before data science I spent years as a field engineer, and my
+            research spans deep learning, forecasting, and energy systems
+            (published work below). I care about systems that are reliable where it counts
+            and genuinely useful to the people using them. Outside of work I
+            build small developer tools and tinker with ML side projects.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><span class="fk">now</span><span class="fv">— Data Scientist &amp; AI Engineer</span></li>
+          <li><span class="fk">before</span><span class="fv">— Field Engineer · SLB</span></li>
+          <li><span class="fk">studied</span><span class="fv">— MS Data Science · BS Electrical Engineering</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─────────────────── TERMINAL + STATUS ─────────────────── -->
+    <section class="strip">
+      <div class="strip-col">
+        <p class="label">GET IN TOUCH</p>
+        <button class="email-copy" id="emailCopy" type="button" aria-label="Copy email to clipboard">
+          <span class="email-text">salam.salik96@gmail.com</span>
+          <span class="email-hint">click to copy</span>
+        </button>
+      </div>
+      <div class="strip-col">
+        <p class="label">FIND ME ON</p>
+        <div class="links">
+          <a href="https://github.com/imsalik" target="_blank" rel="noopener">github &#8599;</a>
+          <a href="https://www.linkedin.com/in/msaliksalam/" target="_blank" rel="noopener">linkedin &#8599;</a>
+          <a href="https://medium.com/@imsalik" target="_blank" rel="noopener">medium &#8599;</a>
+          <a href="https://scholar.google.com/citations?user=qDd4K7wAAAAJ&hl=en" target="_blank" rel="noopener">scholar &#8599;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── WORK ───────────────────────── -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <p class="label">SIDE PROJECTS</p>
+        <div class="search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="filter" placeholder="filter projects…" aria-label="Filter projects" />
+          <kbd>/</kbd>
+        </div>
+      </div>
+
+      <table class="board" id="board">
+        <thead>
+          <tr>
+            <th class="c-rank">#</th>
+            <th class="c-name">PROJECT</th>
+            <th class="c-tag">STACK</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- rows injected by script.js from PROJECTS -->
+        </tbody>
+      </table>
+      <p class="board-empty" id="boardEmpty" hidden>no matches.</p>
+    </section>
+
+    <!-- ───────────────────────── RESEARCH ───────────────────────── -->
+    <section class="research" id="research">
+      <div class="section-head">
+        <p class="label">RESEARCH &amp; PUBLICATIONS</p>
+        <a class="scholar-link" href="https://scholar.google.com/citations?user=qDd4K7wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      </div>
+      <div class="pubs" id="pubs">
+        <!-- publications injected by script.js -->
+      </div>
+    </section>
+
+    <!-- ───────────────────────── STACK ───────────────────────── -->
+    <section class="stack" id="stack">
+      <p class="label">TOOLS I REACH FOR</p>
+      <div class="chips" id="chips">
+        <!-- chips injected by script.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer" id="contact">
+    <div class="footer-big">LET'S<br/>BUILD<span class="dot">.</span></div>
+    <div class="footer-meta">
+      <a href="mailto:salam.salik96@gmail.com" class="cta">salam.salik96@gmail.com &#8599;</a>
+      <p class="copyright">&copy; <span id="year"></span> M Salik Salam</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
